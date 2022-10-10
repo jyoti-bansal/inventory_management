@@ -8,7 +8,7 @@ const config=require('config');
 
 const app=express();
 
-//const isDevEnv = process.env.NODE_ENV === 'development';
+
 //const port=3000;
 const dbConfig=config.get('mongo.host');
 const portConfig=config.get('port');
